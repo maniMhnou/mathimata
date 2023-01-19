@@ -51,7 +51,16 @@ while(anwser != "exit"):
             print ("Κλείσιμο αρχείου")
             fileObj.close()
 
-    #elif(anwser == "3"):
-        #file_name = input ("Δώσε το όνομα του μαθητή")
-        #path = input ("")
-            
+   # if(anwser == 3):
+        #file_name = raw_input ("Δώσε το όνομα του μαθητή")
+        #path = raw_input ("που θα ανοιχθεί το αρχείο;")
+        #file = file_name + ".txt"
+        #file_name1 = path + "/" + file
+        
+        #if IsExisting(file_name) == False:
+                #a = raw_input ("Εφώ γραψε οτι θελεις να ειναι μεσα στο αρχειο")
+                #print ("Άνοιγμα αρχείου", file_name1)
+                #fileObj = open (file_name1, "w")
+                #print fileObj.write()
+                #print("Κλείσιμο αρχείου")
+                #fileObj.close()
